@@ -1,0 +1,38 @@
+ #tabs{font-size: 14px;}
+         .ui-widget-header {
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+         }
+
+ li{
+
+ 	float: left;
+ 	margin-left: 10px;
+ }
+ 
+#contact label, #tab2contact label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+#contact_submit{
+    padding-left: 100px;
+}
+#contact div, #tab2contact div{
+    margin-top: 1em;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+.error{
+    display: none;
+    margin-left: 10px;
+}      
+ 
+.error_show{
+    color: red;
+    margin-left: 10px;
+}

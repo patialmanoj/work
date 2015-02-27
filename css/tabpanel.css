@@ -1,0 +1,32 @@
+.tab_panels  li{
+	margin: 0;
+	padding:0;
+
+}
+.tab-panels ul li{
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	background: #999;
+	padding: 3px,10px;
+	color : #fff;
+	font-weight: 200;
+	cursor: pointer;	
+
+}
+.tab-panels .panel {
+  display: none;
+  background: #c9c9c9;
+  padding: 30px;
+  border-radius: 0 0 10px 10px; 
+
+
+}
+.tab-panels .panel.active{
+
+	display: block;
+}
+li{
+
+	float : left;
+}

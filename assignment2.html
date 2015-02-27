@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LayOut</title>
+  <script src="js/jquery-2.1.3.js"></script>
+  <script src= "js/validate.js"></script>
+  <script src= "jquery-ui-1.11.3.custom\jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.3.custom\jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css\assignment2.css"> 
+</head>
+
+<body>
+<div id= "header"> <h1>SECURITY MASTER</h1> </div> 
+<div id="tabs">
+  <ul id ="tabsort">
+   
+    <li><a href="#tabs-1">Equity</a></li>
+    <li><a href="#tabs-2">Bonds</a></li>
+    
+  </ul>
+
+  <div id="tabs-1">
+           <form id="contact" method="post" action="">
+        <!-- Name -->
+               <div>
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name" name="name"></input>
+                    <span class="error">This field is required</span>
+                </div>
+    <!-- Email -->
+                <div>
+                    <label for="contact_email">Email:</label>
+                    <input type="email" id="contact_email" name="email"></input>
+                    <span class="error">A valid email address is required</span>               
+                </div>                       
+    <!--Website -->
+                <div>
+                    <label for="contact_website">Website:</label>
+                    <input type="url" id="contact_website" name="website"></input>
+                    <span class="error">A valid url is required</span>                             
+                </div>                       
+    <!-- Message -->
+                <div>
+                    <label for="contact_message">Message:</label>
+                    <textarea id="contact_message" name="message"></textarea>
+                    <span class="error">This field is required</span>                                              
+                </div>                   
+    <!-- Submit Button -->
+                <div id="contact_submit">            
+                     <button type="submit">Submit</button>
+                </div>
+                <div id="error_name"> please Enter valid name , only string</div>
+                <div id="error_email"> </div>
+                <div id="error_website"> </div>
+                <div id="error_message"> </div>
+
+
+          </form>
+
+
+    </div>
+  <div id="tabs-2">
+    
+            <form id="tab2contact" method="post" action="">
+        <!-- Name -->
+               <div>
+                    <label for="contact_name1">Name:</label>
+                    <input type="text" id="contact_name1" name="name"></input>
+                    <span class="error">This field is required</span>
+                </div>
+    <!-- Email -->
+                <div>
+                    <label for="contact_email1">Email:</label>
+                    <input type="email" id="contact_email1" name="email"></input>
+                    <span class="error">A valid email address is required</span>               
+                </div>                       
+    <!--Website -->
+                <div>
+                    <label for="contact_website1">Website:</label>
+                    <input type="url" id="contact_website1" name="website"></input>
+                    <span class="error">A valid url is required</span>                             
+                </div>                       
+    <!-- Message -->
+                <div>
+                    <label for="contact_message1">Message:</label>
+                    <textarea id="contact_message1" name="message"></textarea>
+                    <span class="error">This field is required</span>                                              
+                </div>                   
+    <!-- Submit Button -->
+                <div id="contact_submit">            
+                     <button type="submit">Submit</button>
+                </div>
+          </form>
+
+
+  </div>
+  
+</div>
+</body>
+</html>

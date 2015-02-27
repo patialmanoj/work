@@ -1,0 +1,87 @@
+body{
+    background-color: #FDF5E6;
+}
+
+li{
+	display: flex;
+	float: left;
+	margin-left: 10px;
+
+}
+#header{
+
+	margin-top: 10px;
+	margin-left: 0px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #F5DEB3;
+}
+.makeBold{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+}
+#tabs-1 div , #tabs-2 div, #tabs-4 div{ 
+	/*clear: left;*/
+	position: inline;
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 25%;
+}
+.attr{
+
+
+}
+
+input.invalid, textarea.invalid{
+			border: 2px solid red;
+		}
+		
+input.valid, textarea.valid{
+			border: 1px solid ;
+		}
+
+.error{
+			display: none;
+			margin-left: 10px;
+
+		}		
+		
+.error_show{
+			color: red;
+			margin-left: 10px;
+			font-style: italic;
+		}
+.tname{
+		width : 16%;
+		text-align: center;
+
+}
+.temail{
+		width : 20%;
+		text-align: center;	
+}
+.twebsite{
+	width : 20%;
+	text-align: center;
+}
+.tnumber{
+	 width : 16%;
+	 text-align: center;
+}
+/*Connection-specific DNS Suffix: ivp.co.in
+Description: Realtek PCIe GBE Family Controller
+Physical Address: ‎78-45-C4-42-7B-D9
+DHCP Enabled: Yes
+IPv4 Address: 192.168.13.72
+IPv4 Subnet Mask: 255.255.255.0
+Lease Obtained: Friday, February 27, 2015 1:25:49 PM
+Lease Expires: Wednesday, March 04, 2015 1:24:51 PM
+IPv4 Default Gateway: 192.168.13.254
+IPv4 DHCP Server: 192.168.0.4
+IPv4 DNS Servers: 192.168.0.4, 192.168.0.5
+IPv4 WINS Server: 
+NetBIOS over Tcpip Enabled: Yes
+Link-local IPv6 Address: fe80::146f:c840:4859:1be9%11
+IPv6 Default Gateway: 
+IPv6 DNS Server:*/ 
